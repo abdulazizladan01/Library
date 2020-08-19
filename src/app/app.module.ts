@@ -14,6 +14,8 @@ import { VrComponent } from './dashboard/vr/vr.component';
 import { CbtComponent } from './dashboard/cbt/cbt.component';
 import { QuestionComponent } from './dashboard/cbt/question/question.component';
 import { LibraryComponent } from './dashboard/library/library.component';
+import { LoginComponent } from './login/login.component';
+import { SelectionComponent } from './dashboard/cbt/selection/selection.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { LibraryComponent } from './dashboard/library/library.component';
     VrComponent,
     CbtComponent,
     QuestionComponent,
-    LibraryComponent
+    LibraryComponent,
+    LoginComponent,
+    SelectionComponent
   ],
   imports: [
     BrowserModule,

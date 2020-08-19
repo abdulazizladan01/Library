@@ -1,1 +1,22 @@
-<p>question works!</p>
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>
+            #) Question text goes here...
+        </mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+        <mat-radio-group name="question">
+            
+            <div fxLayout.xs="column" fxLayout.gt-xs="row">
+                <mat-radio-button fxFlex="1 1 auto" value="A">option A</mat-radio-button>
+                <mat-radio-button fxFlex="1 1 auto" value="B">option B</mat-radio-button>
+            </div>
+            
+            <div fxLayout.xs="column" fxLayout.gt-xs="row">
+                <mat-radio-button fxFlex="1 1 auto" value="C">option C</mat-radio-button>
+                <mat-radio-button fxFlex="1 1 auto" value="C">option D</mat-radio-button>
+            </div>            
+        </mat-radio-group>
+    </mat-card-content>
+</mat-card>

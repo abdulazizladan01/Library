@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { FormGroup, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -8,24 +7,17 @@ import { FormGroup, FormBuilder } from '@angular/forms';
 })
 export class AppComponent {
   title = 'Library';
-  userForm : FormGroup;
+  
 
-  constructor(private fb: FormBuilder){
+  constructor(){
 
   }
 
   ngOnInit(){
-    this.initializeForm();
+    
   }
 
-  initializeForm(): void{
-    this.userForm = this.fb.group({
-      email : '',
-      password : ''
-    });
-  }
+  
 
-  onSubmit(): void{
-    console.log(this.userForm);
-  }
+  
 }
